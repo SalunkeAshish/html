@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .input{
+            background-color: rgb(171, 220, 243);
+            font-size: 20px;
+            cursor: pointer;
+            border-radius:5px;
+            border:solid rgb(202, 202, 219);
+            width:500px;
+           
+        }
+        .input:hover{
+            background-color: rgb(45, 183, 247);
+            font-size: 20px;
+        }
+        body{
+            font-size: 20px;
+            margin-top:5%;
+            margin-left: 20%;
+            margin-right: 20%;
+            font-style: italic;
+            background-color: blanchedalmond;
+        }
+        input.submit:hover{
+            background-color: rgb(45, 183, 247);
+            font-size: 15px;
+            width:60px;
+            border-radius: 5px;
+            cursor:pointer;
+            
+        }
+        input.reset:hover{
+            background-color: rgb(45, 183, 247);
+            font-size: 15px;
+            width:60px;
+            border-radius: 5px;
+            cursor:pointer;
+        }   
+        input.submit{
+            margin-right:10px;
+        }
+        /* div{
+            text-align:center;
+        } */
+        
+        
+    </style>
+    <body>
+        <form>
+            <div>
+                <table cellspacing="10px" cellpadding="10px" align="middle">
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" name="Name" class="input"  > </td>
+                    </tr>
+                    <tr>
+                        <td>Contact Number</td>
+                        <td><input type="text" name="ContactNumber" class="input"></td>
+                    </tr>
+                    <tr>
+                        <td>Email Id</td>
+                        <td><input type="Email" class="input"></td>
+                    </tr>
+                </table>
+            </div>
+           <div align="center">
+                <input class="submit" type="submit"> 
+                <input class="reset" type="reset">
+           </div>
+        </form>
+    </body>
+</html>
